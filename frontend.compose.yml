@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: /api/v1
+    image: sovra-frontend:local
+    restart: unless-stopped
+    ports:
+      - "80:80"
+
+networks:
+  default:
+    name: sovra-net
+    external: true
