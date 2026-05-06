@@ -8,6 +8,11 @@ This repository contains the customer-facing frontend website for Sovra AI.
 Backend platform repository:  
 https://github.com/tuanTaAnh/Sovra-Platform
 
+Live lightweight demo on Hugging Face:  
+https://anhtuan19981998-sovra-frontend.hf.space
+
+Note: The Hugging Face deployment is a lightweight free-hosted version optimized for free deployment constraints. The full VM deployment remains the more complete local/on-premise version.
+
 ---
 
 ## 1. Overview
